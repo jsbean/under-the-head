@@ -1,0 +1,34 @@
+Max -- Patch
+
+- Performance layer, with list of cues
+	- in form: 
+		- [13][G]["DESCRIPTION"]
+		- [13][H]["DESCRIPTION"]
+- Text only scrubbing 
+- Step backward (double-tap)
+- Microphone vol 
+- Cue start
+- Cue stop
+- Text representation of cue, with a cue number
+
+[124]
+
+ctl:
+- Manually set gain parameter, save preset on the fly
+
+Rehearsals March 25th
+
+TODO:
+- Implement clean pedal in (for all input)
+	- Manage accidental double-tap
+- 
+
+
+
+
+- Start / stop w/ fade
+- coll / JSON database of cues
+- implement step-backward
+
+Notes:
+- Create abstraction to manage insertion / removal of cues
