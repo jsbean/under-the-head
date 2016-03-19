@@ -1,5 +1,9 @@
 Max -- Patch
 
+- for first rehearsal (first version of patch), gain resolution of 10 steps
+
+
+- Test volume stage
 - Performance layer, with list of cues
 	- in form: 
 		- [13][G]["DESCRIPTION"]
