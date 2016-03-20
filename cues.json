@@ -1,0 +1,19 @@
+{
+  "complexes" : {
+    "1" : {
+      "cues" :  {
+        "audio" : {
+          "start" : [
+            "audiofile.aif"
+          ],
+          "stop" : [
+            "audiofile.aif"
+          ]
+        },
+        "vol" : {
+          "cl" : 100
+        } 
+      }
+    }
+  }
+}
