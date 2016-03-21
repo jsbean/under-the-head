@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 491.0, 537.0, 195.0, 20.0 ],
+					"presentation_rect" : [ 494.0, 552.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "TODO: dict wrap / unwrap for cues"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2149,7 +2162,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 24.0, 379.0, 65.0, 22.0 ],
+					"patching_rect" : [ 587.0, 563.0, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2339,7 +2352,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 24.0, 434.0, 77.0, 22.0 ],
+					"patching_rect" : [ 663.5, 563.0, 77.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2549,7 +2562,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 24.0, 406.0, 87.0, 22.0 ],
+					"patching_rect" : [ 491.0, 563.0, 87.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
