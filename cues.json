@@ -1,19 +1,13 @@
 {
-  "complexes" : {
-    "1" : {
-      "cues" :  {
-        "audio" : {
-          "start" : [
-            "audiofile.aif"
-          ],
-          "stop" : [
-            "audiofile.aif"
-          ]
-        },
-        "vol" : {
-          "cl" : 100
-        } 
-      }
-    }
-  }
+    "cues" : [      
+        {
+            "section" : 1,
+            "cue" : "A",
+            "play" : [ "file1.wav" ],
+            "stop" : [ "file2.wav" ],
+            "gain" :  {
+                "cl" : "0.9"
+            }
+        }
+    ]
 }
