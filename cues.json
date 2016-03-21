@@ -2,12 +2,23 @@
     "cues" : [      
         {
             "section" : 1,
-            "cue" : "A",
-            "play" : [ "file1.wav" ],
+            "subcue" : "A",
+            "start" : [ "file1.wav", "file3.wav" ],
             "stop" : [ "file2.wav" ],
             "gain" :  {
                 "cl" : "0.9"
             }
+        },
+        {
+        	"section" : 1,
+        	"subcue" : "B",
+        	"stop" : [ "file2.wav" ]
+        },
+        {
+        	"section" : 2,
+        	"subcue" : "A",
+        	"start" : [ "file4.wav" ],
+        	"stop" : [ "file1.wav" ]
         }
     ]
 }
