@@ -38,6 +38,58 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 582.166565, 228.0, 229.0, 20.0 ],
+					"presentation_rect" : [ 638.5, 281.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "TODO: add outlet for cue pass-through"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 582.166565, 247.0, 183.0, 47.0 ],
+					"presentation_rect" : [ 636.5, 289.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "scrub through cues here, \n- then go directly into action dict\n(below)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 538.333252, 346.5, 203.0, 20.0 ],
+					"presentation_rect" : [ 535.5, 346.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "this will be used to control soundfile "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 427.0, 515.0, 175.0, 20.0 ],
+					"style" : "",
+					"text" : "TODO: link these to buffer pool"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -550,7 +602,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 866.5, 268.0, 63.0, 20.0 ],
+					"patching_rect" : [ 810.166565, 142.0, 63.0, 20.0 ],
 					"presentation_rect" : [ 258.0, 448.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jump-to"
@@ -563,7 +615,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 700.5, 270.0, 63.0, 20.0 ],
+					"patching_rect" : [ 644.166565, 144.0, 63.0, 20.0 ],
 					"style" : "",
 					"text" : "increment"
 				}
@@ -576,7 +628,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 666.5, 228.5, 221.0, 33.0 ],
+					"patching_rect" : [ 610.166565, 102.5, 221.0, 33.0 ],
 					"style" : "",
 					"text" : "this will be used as the label generator \nfor the cue quick-select UI layer"
 				}
@@ -589,7 +641,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 796.5, 330.0, 50.0, 22.0 ],
+					"patching_rect" : [ 740.166565, 204.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "A"
 				}
@@ -602,7 +654,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 638.5, 330.0, 50.0, 22.0 ],
+					"patching_rect" : [ 582.166565, 204.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "2"
 				}
@@ -992,7 +1044,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 669.5, 298.0, 177.0, 22.0 ],
+					"patching_rect" : [ 613.166565, 172.0, 177.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1012,9 +1064,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 725.0, 536.0, 119.0, 20.0 ],
+					"patching_rect" : [ 788.333252, 533.0, 130.0, 20.0 ],
 					"style" : "",
-					"text" : "todo: parse gain dict"
+					"text" : "TODO: parse gain dict"
 				}
 
 			}
@@ -1066,7 +1118,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 827.5, 268.0, 32.0, 22.0 ],
+					"patching_rect" : [ 771.166565, 142.0, 32.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1078,7 +1130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 669.5, 266.0, 24.0, 24.0 ],
+					"patching_rect" : [ 613.166565, 140.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
