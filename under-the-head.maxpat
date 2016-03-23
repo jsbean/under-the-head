@@ -43,7 +43,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 582.166565, 228.0, 229.0, 20.0 ],
-					"presentation_rect" : [ 638.5, 281.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "TODO: add outlet for cue pass-through"
 				}
@@ -57,7 +56,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 582.166565, 247.0, 183.0, 47.0 ],
-					"presentation_rect" : [ 636.5, 289.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "scrub through cues here, \n- then go directly into action dict\n(below)"
 				}
@@ -70,7 +68,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 538.333252, 346.5, 203.0, 20.0 ],
-					"presentation_rect" : [ 535.5, 346.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "this will be used to control soundfile "
 				}
@@ -95,7 +92,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 858.333252, 390.0, 63.0, 20.0 ],
-					"presentation_rect" : [ 1082.0, 388.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jump-to"
 				}
@@ -108,7 +104,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 569.333252, 390.0, 63.0, 20.0 ],
-					"presentation_rect" : [ 916.0, 390.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "increment"
 				}
@@ -123,7 +118,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 819.333252, 390.0, 32.0, 22.0 ],
-					"presentation_rect" : [ 1043.0, 388.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -136,7 +130,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 538.333252, 386.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 885.0, 386.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -194,7 +187,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 103.25, 24.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 140.0, 81.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -578,7 +570,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 606.166565, 488.0, 135.0, 20.0 ],
-					"presentation_rect" : [ 788.0, 529.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "list of audio files to stop"
 				}
@@ -603,7 +594,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 810.166565, 142.0, 63.0, 20.0 ],
-					"presentation_rect" : [ 258.0, 448.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jump-to"
 				}
@@ -711,7 +701,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 317.666748, 444.0, 30.0, 30.0 ],
+									"patching_rect" : [ 322.333344, 444.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -723,7 +713,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 266.666748, 444.0, 30.0, 30.0 ],
+									"patching_rect" : [ 271.333344, 444.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -735,7 +725,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 266.666748, 406.0, 121.0, 22.0 ],
+									"patching_rect" : [ 271.333344, 406.0, 121.0, 22.0 ],
 									"style" : "",
 									"text" : "route section subcue"
 								}
@@ -1080,7 +1070,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 788.333252, 464.0, 50.0, 62.0 ],
 					"style" : "",
-					"text" : "dictionary u845000340"
+					"text" : "dictionary u658000393"
 				}
 
 			}
@@ -1093,7 +1083,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 602.833252, 464.0, 95.0, 22.0 ],
 					"style" : "",
-					"text" : "file1.wav"
+					"text" : "file2.wav"
 				}
 
 			}
@@ -1106,7 +1096,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 430.333252, 464.0, 127.0, 22.0 ],
 					"style" : "",
-					"text" : "file4.wav"
+					"text" : "file1.wav file3.wav"
 				}
 
 			}
