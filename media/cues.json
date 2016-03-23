@@ -406,6 +406,11 @@
 				"cl" : 0,
 				"vla" : 0
 			}
+		},
+		{
+			"section" : 8,
+			"subcue" : "L",
+			"start" : [ "pegs2" ]
 		}
     ]
 }
