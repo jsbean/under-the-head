@@ -60,10 +60,142 @@
 			"subcue" : "B",
 			"stop" : [ "room3" ]
 		},
-        {
-        	"gain" :  {
-                "cl" : "0.9"
-            }
-        }
+		{
+			"section" : 4,
+			"subcue" : "A",
+			"start" : [ "cl1" ]
+		},
+		{
+			"section" : 4,
+			"subcue" : "B",
+			"start" : [ "room4" ]
+		},
+		{
+			"section" : 4,
+			"subcue" : "C",
+			"stop" : [ "room4" ],
+			"start" : [ "room5" ]
+		},
+		{
+			"section" : 4,
+			"subcue" : "D",
+			"stop" : [ "room5"]
+		},
+		{
+			"section" : 4,
+			"subcue" : "E",
+			"stop" : [ "cl1" ],
+			"start" : [ "room6" ]
+		},
+		{
+			"section" : 4,
+			"subcue" : "F",
+			"stop" : [ "room6" ]
+		},
+		{
+			"section" : 5,
+			"subcue" : "A",
+			"gain" : {
+				"vln" : 1
+			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "B",
+			"gain" : {
+				"vlc" : 1
+			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "C",
+			"gain" : {
+				"vlc" : 0
+			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "D",
+			"gain" : {
+				"vln" : 0
+			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "E",
+			"start" : [ "vn1" ]
+		},
+		{
+			"section" : 5,
+			"subcue" : "F",
+			"stop" : [ "vla3" ],
+			"start" : [ "cl2", "room7" ]
+		},
+		{
+			"section" : 5,
+			"subcue" : "G",
+			"stop" : [ "cl2" ],
+			"gain" : {
+				"cl" : 2
+			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "H",
+			"stop" : [ "room7" ]
+		},
+		{
+			"section" : 5,
+			"subcue" : "I",
+			"start" : [ "vln2" ]
+		},
+		{
+			"section" : 5,
+			"subcue" : "J",
+			"gain" : {
+				"cl" : 2,
+				"vln" : 2,
+				"vlc" : 2
+			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "K",
+			"start": [ "vln3" ]
+		},
+		{
+			"section" : 5,
+			"subcue" : "L",
+			"start" : [ "swarm1" ]
+		},
+		{
+			"section" : 5,
+			"subcue" : "M",
+			"stop" : [ "swarm1" ],
+			"start" : [ "vlc1" ]
+		},
+		{
+			"section" : 5,
+			"subcue" : "N",
+			"start" : "vln4",
+			"gain" : {
+				"cl" : 1
+			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "O",
+			"gain" : {
+				"cl" : 0,
+				"vln" : 0,
+				"vlc" : 0,
+				"vla" : 2
+			}
+		},
+		{
+			"gain" : {
+				"vla" : 0
+			}
+		}
     ]
 }
