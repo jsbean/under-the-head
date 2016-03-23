@@ -252,6 +252,22 @@
 				"vlc" : 7,
 				"cl" : 7
 			}	
+		},
+		{
+			"section" : 6,
+			"subcue" : "B",
+			"stop" : [ "pegs1" ],
+			"start" : [ "room8" ]
+		},
+		{
+			"section" : 6,
+			"subcue" : "C",
+			"gain" : {
+				"vln" : 7,
+				"vla" : 7,
+				"vlc" : 7,
+				"cl" : 7
+			}
 		}
     ]
 }
