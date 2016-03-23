@@ -304,6 +304,44 @@
 			"section" : 6,
 			"subcue" : "H",
 			"stop" : [ "room8", "vla4" ]
+		},
+		{
+			"section" : 6,
+			"subcue" : "I",
+			"stop" : [ "sin2" ]
+		},
+		{
+			"section" : 6,
+			"subcue" : "J",
+			"gain" : {
+				"vln" : 0,
+				"vlc" : 0,
+				"cl" : 0,
+				"vla" : 2
+			}	
+		},
+		{
+			"section" : 6,
+			"subcue" : "K",
+			"start" : [ "room9" ]
+		},
+		{
+			"section" : 6,
+			"subcue" : "L",
+			"stop" : [ "room9" ],
+			"start" : [ "room10" ]
+		},
+		{
+			"section" : 6,
+			"subcue" : "N",
+			"gain" : {
+				"vla" : 0
+			}
+		},
+		{
+			"section" : 7,
+			"subcue" : "A",
+			"start" : [ "swarm3" ]
 		}
     ]
 }
