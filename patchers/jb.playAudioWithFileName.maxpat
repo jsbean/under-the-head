@@ -909,9 +909,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 37.0, 149.5, 102.0, 22.0 ],
+									"patching_rect" : [ 37.0, 149.5, 112.0, 22.0 ],
 									"style" : "",
-									"text" : "buffer~ buffer0 -1"
+									"text" : "buffer~ buffer0 -1 2"
 								}
 
 							}
@@ -1036,7 +1036,7 @@
 						"loopend" : [ 0.0, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
+						"originallength" : [ 1.915646, "ticks" ],
 						"originaltempo" : 120.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
