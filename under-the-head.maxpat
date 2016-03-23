@@ -2966,7 +2966,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 672.0, 95.0, 456.0, 602.0 ],
+						"rect" : [ 34.0, 95.0, 1094.0, 767.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2996,79 +2996,82 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 666.5, 601.0, 234.0, 22.0 ],
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 865.5, 321.0, 44.0, 22.0 ],
+									"presentation_rect" : [ 865.5, 321.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "jb.playAudioWithBufferIndexAndFileName"
+									"text" : "cl.wav"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 624.5, 550.0, 234.0, 22.0 ],
+									"id" : "obj-19",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 842.5, 287.0, 63.0, 22.0 ],
+									"presentation_rect" : [ 842.5, 287.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "jb.playAudioWithBufferIndexAndFileName"
+									"text" : "room.wav"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-8",
+									"id" : "obj-20",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 589.5, 470.0, 234.0, 22.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 825.5, 424.5, 70.0, 22.0 ],
 									"style" : "",
-									"text" : "jb.playAudioWithBufferIndexAndFileName"
+									"text" : "send~ out2"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 576.333313, 439.0, 234.0, 22.0 ],
+									"id" : "obj-21",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 878.5, 356.0, 33.0, 22.0 ],
+									"presentation_rect" : [ 878.5, 356.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "jb.playAudioWithBufferIndexAndFileName"
+									"text" : "stop"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 563.166687, 408.0, 234.0, 22.0 ],
+									"id" : "obj-23",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 825.5, 252.0, 71.0, 22.0 ],
+									"presentation_rect" : [ 825.5, 252.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "jb.playAudioWithBufferIndexAndFileName"
+									"text" : "swarm.wav"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-2",
+									"id" : "obj-26",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 550.0, 381.0, 234.0, 22.0 ],
+									"patching_rect" : [ 825.5, 391.0, 168.0, 22.0 ],
 									"style" : "",
-									"text" : "jb.playAudioWithBufferIndexAndFileName"
+									"text" : "jb.playAudioWithFileName 10"
 								}
 
 							}
@@ -3079,10 +3082,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 732.5, 66.0, 61.0, 22.0 ],
+									"patching_rect" : [ 653.5, 100.0, 44.0, 22.0 ],
 									"presentation_rect" : [ 733.5, 64.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "10 cl.wav"
+									"text" : "cl.wav"
 								}
 
 							}
@@ -3093,9 +3096,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 639.5, 66.0, 73.0, 22.0 ],
+									"patching_rect" : [ 630.5, 66.0, 63.0, 22.0 ],
 									"style" : "",
-									"text" : "2 room.wav"
+									"text" : "room.wav"
 								}
 
 							}
@@ -3118,7 +3121,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 707.0, 129.0, 33.0, 22.0 ],
+									"patching_rect" : [ 666.5, 135.0, 33.0, 22.0 ],
 									"style" : "",
 									"text" : "stop"
 								}
@@ -3131,9 +3134,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 613.5, 100.0, 81.0, 22.0 ],
+									"patching_rect" : [ 613.5, 31.0, 71.0, 22.0 ],
 									"style" : "",
-									"text" : "1 swarm.wav"
+									"text" : "swarm.wav"
 								}
 
 							}
@@ -3144,9 +3147,9 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 613.5, 170.0, 234.0, 22.0 ],
+									"patching_rect" : [ 613.5, 170.0, 161.0, 22.0 ],
 									"style" : "",
-									"text" : "jb.playAudioWithBufferIndexAndFileName"
+									"text" : "jb.playAudioWithFileName 4"
 								}
 
 							}
@@ -3204,45 +3207,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-60",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 355.0, 501.0, 88.0, 22.0 ],
-									"style" : "",
-									"text" : "buffer~ buffer1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-59",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 355.0, 470.0, 82.0, 22.0 ],
-									"style" : "",
-									"text" : "prepend read"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-58",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 411.0, 389.0, 88.0, 22.0 ],
-									"style" : "",
-									"text" : "buffer~ buffer1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-57",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -3261,7 +3225,7 @@
 									"numinlets" : 13,
 									"numoutlets" : 13,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 550.0, 311.0, 177.0, 22.0 ],
+									"patching_rect" : [ 550.0, 398.0, 177.0, 22.0 ],
 									"style" : "",
 									"text" : "route 1 2 3 4 5 6 7 8 9 10 11 12"
 								}
@@ -3356,19 +3320,6 @@
 									"patching_rect" : [ 329.0, 296.0, 59.5, 22.0 ],
 									"style" : "",
 									"text" : "pack 0 s"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-29",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 147.0, 417.0, 82.0, 22.0 ],
-									"style" : "",
-									"text" : "prepend read"
 								}
 
 							}
@@ -3481,32 +3432,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 124.0, 567.0, 88.0, 22.0 ],
-									"style" : "",
-									"text" : "buffer~ buffer3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 124.0, 538.0, 88.0, 22.0 ],
-									"style" : "",
-									"text" : "buffer~ buffer2"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -3581,19 +3506,6 @@
 ,
 									"style" : "",
 									"text" : "groove~ buffer4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-21",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 147.0, 449.0, 88.0, 22.0 ],
-									"style" : "",
-									"text" : "buffer~ buffer1"
 								}
 
 							}
@@ -3684,6 +3596,33 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3697,6 +3636,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
@@ -3720,10 +3668,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
+									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-29", 0 ]
+									"source" : [ "obj-26", 0 ]
 								}
 
 							}
@@ -3805,51 +3753,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-54", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-55", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-55", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-55", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-55", 3 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-60", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-59", 0 ]
 								}
 
 							}
@@ -4742,15 +4645,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-111", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-111", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4778,7 +4672,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jb.playAudioWithBufferIndexAndFileName.maxpat",
+				"name" : "jb.playAudioWithFileName.maxpat",
 				"bootpath" : "~/Harvard/Max/under_the_head/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
