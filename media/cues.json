@@ -193,9 +193,65 @@
 			}
 		},
 		{
+			"section" : 5,
+			"subcue" : "P",
 			"gain" : {
 				"vla" : 0
 			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "Q",
+			"gain" : {
+				"vln" : 3,
+				"vla" : 3,
+				"vlc" : 3
+			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "R",
+			"gain" : {
+				"vla" : 4
+			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "S",
+			"gain" : {
+				"vln" : 4,
+				"vla" : 4,
+				"vlc" : 4,
+				"cl" : 4
+			}
+		},
+		{
+			"section" : 5,
+			"subcue" : "T",
+			"stop" : [ "vln1", "vln2", "vln3", "vln4" ],
+			"start" : [ "vln5" ]
+		},
+		{
+			"section" : 5,
+			"subcue" : "U",
+			"gain" : {
+				"vln" : 0,
+				"vla" : 0,
+				"vlc" : 0,
+				"cl" : 0
+			}	
+		},
+		{
+			"section" : 6,
+			"subcue" : "A",
+			"stop" : [ "vln5" ],
+			"start" : [ "pegs1" ],
+			"gain" : {
+				"vln" : 7,
+				"vla" : 7,
+				"vlc" : 7,
+				"cl" : 7
+			}	
 		}
     ]
 }
