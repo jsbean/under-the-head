@@ -257,17 +257,53 @@
 			"section" : 6,
 			"subcue" : "B",
 			"stop" : [ "pegs1" ],
-			"start" : [ "room8" ]
+			"start" : [ "room8" ],
+			"gain" : {
+				"vln" : 6,
+				"vla" : 6,
+				"vlc" : 6,
+				"cl" : 6
+			}
 		},
 		{
 			"section" : 6,
 			"subcue" : "C",
+			"gain" : {
+				"vln" : 0,
+				"vla" : 0,
+				"vlc" : 0,
+				"cl" : 0
+			}
+		},
+		{
+			"section" : 6,
+			"subcue" : "C",
+			"start" : [ "swarm2", "vln4" ]
+		},
+		{
+			"section" : 6,
+			"subcue" : "E",
+			"stop" : [ "swarm2" ]
+		},
+		{
+			"section" : 6,
+			"subcue" : "F",
+			"start" : [ "sin2" ]
+		},
+		{
+			"section" : 6,
+			"subcue" : "G",
 			"gain" : {
 				"vln" : 7,
 				"vla" : 7,
 				"vlc" : 7,
 				"cl" : 7
 			}
+		},
+		{
+			"section" : 6,
+			"subcue" : "H",
+			"stop" : [ "room8", "vla4" ]
 		}
     ]
 }
