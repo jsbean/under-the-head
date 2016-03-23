@@ -342,6 +342,70 @@
 			"section" : 7,
 			"subcue" : "A",
 			"start" : [ "swarm3" ]
+		},
+		{
+			"section" : 7,
+			"subcue" : "B",
+			"stop" : [ "swarm3" ],
+			"start" : [ "swarm4" ]
+		},
+		{
+			"section" : 7,
+			"subcue" : "C",
+			"stop" : [ "swarm4" ],
+			"start" : [ "swarm5" ]
+		},
+		{
+			"section" : 7,
+			"subcue" : "D",
+			"stop" : [ "swarm5" ],
+			"start" : [ "swarm6" ]
+		},
+		{
+			"section" : 7,
+			"subcue" : "E",
+			"stop" : [ "swarm6" ],
+			"start" : [ "swarm7" ]
+		},
+		{
+			"section" : 7,
+			"subcue" : "F",
+			"stop" : [ "swarm7" ]
+		},
+		{
+			"section" : 7,
+			"subcue" : "G",
+			"start" : [ "cl3" ]
+		},
+		{
+			"section" : 7,
+			"subcue" : "H",
+			"stop" : [ "cl3" ]
+		},
+		{
+			"section" : 7,
+			"subcue" : "I",
+			"start" : [ "cl4" ]
+		},
+		{
+			"section" : 7,
+			"subcue" : "J",
+			"gain" : {
+				"vln" : 7,
+				"vlc" : 7,
+				"cl" : 7,
+				"vla" : 7
+			}
+		},
+		{
+			"section" : 7,
+			"subcue" : "K",
+			"gain" : {
+				"vln" : 0,
+				"vlc" : 0,
+				"cl" : 0,
+				"vla" : 0
+			}
 		}
     ]
 }
