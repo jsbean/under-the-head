@@ -3,22 +3,67 @@
         {
             "section" : 1,
             "subcue" : "A",
-            "start" : [ "file1.wav", "file3.wav" ],
-            "stop" : [ "file2.wav" ],
-            "gain" :  {
-                "cl" : "0.9"
-            }
+            "start" : [ "sin1" ]
         },
         {
         	"section" : 1,
         	"subcue" : "B",
-        	"stop" : [ "file2.wav" ]
+        	"start" : [ "vla1" ]
+        },
+        {
+        	"section" : 1,
+        	"subcue" : "C",
+        	"stop" : [ "sin1", "vla1" ]
         },
         {
         	"section" : 2,
         	"subcue" : "A",
-        	"start" : [ "file4.wav" ],
-        	"stop" : [ "file1.wav" ]
+        	"start" : [ "noise_sin1" ]
+        },
+        {
+        	"section" : 2,
+        	"subcue" : "B",
+        	"start" : [ "vla2" ]
+        },
+        {
+        	"section" : 2,
+        	"subcue" : "C",
+        	"stop" : [ "vla2" ]
+        },
+        {
+        	"section" : 2,
+        	"subcue" : "D",
+        	"start" : [ "room1" ]
+    	},
+    	{
+    		"section" : 2,
+    		"subcue" : "E",
+    		"stop" : [ "room1" ]
+		},
+		{
+			"section" : 2,
+			"subcue" : "F",
+			"play" : [ "room2" ]
+		},
+		{
+			"section" : 2,
+			"subcue" : "G",
+			"stop" : [ "noise_sin1", "room2" ]
+		},
+		{
+			"section" : 3,
+			"subcue" : "A",
+			"start" : [ "room3" ]
+		},
+		{
+			"section" : 3,
+			"subcue" : "B",
+			"stop" : [ "room3" ]
+		},
+        {
+        	"gain" :  {
+                "cl" : "0.9"
+            }
         }
     ]
 }
