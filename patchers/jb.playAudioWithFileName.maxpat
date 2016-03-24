@@ -508,7 +508,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 23.0, 110.0, 83.0, 22.0 ],
+					"patching_rect" : [ 23.0, 110.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1159,7 +1159,7 @@
 					"destination" : [ "obj-11", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 243.5, 99.0, 96.5, 99.0 ],
+					"midpoints" : [ 243.5, 99.0, 86.5, 99.0 ],
 					"source" : [ "obj-19", 1 ]
 				}
 
