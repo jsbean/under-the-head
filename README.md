@@ -6,7 +6,7 @@ Repository for Max Murrary's *Állatvanbent, under the head*.
 ### Hardware
 
 #### Audio Interface
-- (4) microphone preamps
+- (4) high-quality, clean, low-noise microphone preamps
 - (6) outputs
 
 #### Microphones
@@ -18,6 +18,11 @@ Repository for Max Murrary's *Állatvanbent, under the head*.
 
 - (4) high-quality near- or mid-field monitor speakers
 - (2) high-quality large PA speakers
+
+#### MIDI Control
+
+- (4) Momentary MIDI foot-pedals (e.g., "sustain" pedal)
+- (4) channels of conversion between 1/4" and MIDI
 
 ### Software
 
