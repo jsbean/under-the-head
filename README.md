@@ -7,6 +7,6 @@ Max 7
 
 ## Usage
 
-Click "Download Zip" on the upper-right of this page.
-
-Open the patch entitled "under-the-head.maxpat".
+- Click "Download Zip" on the upper-right of this page. 
+- Unzip.
+- Open the patch entitled "under-the-head.maxpat".
