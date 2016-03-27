@@ -21,7 +21,7 @@ Repository for Max Murrary's *Állatvanbent, under the head*.
 
 #### MIDI Control
 
-- (4) Momentary MIDI foot-pedals (e.g., "sustain" pedal)
+- (4) Momentary MIDI foot-pedals (i.e., "sustain" pedal)
 - (4) channels of conversion between 1/4" and MIDI
 
 ### Software
