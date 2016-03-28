@@ -43,7 +43,7 @@
 		{
 			"section" : 2,
 			"subcue" : "F",
-			"play" : [ "room2" ]
+			"start" : [ "room2" ]
 		},
 		{
 			"section" : 2,
@@ -109,6 +109,7 @@
 		{
 			"section" : 5,
 			"subcue" : "C",
+			"start" : [ "vla3" ],
 			"gain" : {
 				"vlc" : 0
 			}
@@ -123,7 +124,7 @@
 		{
 			"section" : 5,
 			"subcue" : "E",
-			"start" : [ "vn1" ]
+			"start" : [ "vln1" ]
 		},
 		{
 			"section" : 5,
@@ -277,8 +278,8 @@
 		},
 		{
 			"section" : 6,
-			"subcue" : "C",
-			"start" : [ "swarm2", "vln4" ]
+			"subcue" : "D",
+			"start" : [ "swarm2", "vla4" ]
 		},
 		{
 			"section" : 6,
@@ -330,6 +331,11 @@
 			"subcue" : "L",
 			"stop" : [ "room9" ],
 			"start" : [ "room10" ]
+		},
+		{
+			"section" : 6,
+			"subcue" : "M",
+			"stop" : [ "room10" ]
 		},
 		{
 			"section" : 6,

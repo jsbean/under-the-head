@@ -940,7 +940,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 163.5, 41.0, 22.0 ],
 									"style" : "",
-									"text" : "$1 10"
+									"text" : "$1 20"
 								}
 
 							}
@@ -1224,7 +1224,7 @@
 													"outlettype" : [ "bang" ],
 													"patching_rect" : [ 50.0, 155.0, 43.0, 22.0 ],
 													"style" : "",
-													"text" : "del 10"
+													"text" : "del 20"
 												}
 
 											}
