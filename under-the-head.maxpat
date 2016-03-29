@@ -48,7 +48,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 459.666748, 625.0, 275.0, 167.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 459.666748, 638.0, 549.0, 60.0 ],
+					"presentation_rect" : [ 459.666748, 624.0, 549.0, 60.0 ],
 					"style" : "",
 					"text" : "0: go back to beginning",
 					"textcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
@@ -65,7 +65,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1149.222168, 357.0, 275.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 459.666748, 584.0, 283.0, 60.0 ],
+					"presentation_rect" : [ 459.666748, 570.0, 283.0, 60.0 ],
 					"style" : "",
 					"text" : "ESC: pause",
 					"textcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
@@ -309,6 +309,23 @@
 					"textcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"trioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "live.gain~[4]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 372.333313, 132.0, 210.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 917.5, 42.5, 257.0, 33.0 ],
+					"style" : "",
+					"text" : "If you are getting weird input from the pedals, \nopen the application \"MIDI Expression\" ",
+					"textcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 				}
 
 			}
@@ -592,6 +609,23 @@
 					"patching_rect" : [ 881.5, 357.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-89",
+					"linecount" : 11,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1249.722168, 132.0, 208.0, 154.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 11,
+					"presentation_rect" : [ 917.5, 77.5, 211.0, 154.0 ],
+					"style" : "",
+					"text" : "for testing purposes, use:\n- enter: start from beginning\n- right arrow / up arrow: next cue\n- left arrow / down arrow: prev cue\n- esc: pause\n- 0: prepare to start (set counter to 0)\n\nfor performance, use:\n- any footpedal to go to next cue\n- hold any footpedal for longer than 2 seconds to reset to the beginning",
+					"textcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 				}
 
 			}
@@ -1363,7 +1397,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 459.166748, 275.0, 439.0, 62.0 ],
 					"style" : "",
-					"text" : "room3",
+					"text" : "sin1 vla1",
 					"textcolor" : [ 0.92549, 0.364706, 0.341176, 1.0 ]
 				}
 
@@ -1390,7 +1424,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 459.166748, 219.0, 439.0, 62.0 ],
 					"style" : "",
-					"text" : "room3",
+					"text" : "vla1",
 					"textcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ]
 				}
 
@@ -1456,7 +1490,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 591.166748, 11.0, 175.0, 232.0 ],
 					"style" : "",
-					"text" : "B"
+					"text" : "C"
 				}
 
 			}
@@ -1482,7 +1516,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 459.166748, 11.0, 175.0, 232.0 ],
 					"style" : "",
-					"text" : "3"
+					"text" : "1"
 				}
 
 			}
@@ -4153,6 +4187,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-32",
@@ -4984,6 +5019,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-25",
@@ -5259,7 +5295,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 19.0, 124.0, 76.0, 22.0 ],
 													"style" : "",
-													"text" : "8 stop"
+													"text" : "4 stop"
 												}
 
 											}
@@ -5377,7 +5413,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 140.0, 211.0, 161.0, 22.0 ],
+													"patching_rect" : [ 142.0, 212.0, 161.0, 22.0 ],
 													"style" : "",
 													"text" : "jb.playAudioWithFileName 3"
 												}
@@ -5491,7 +5527,7 @@
 													"destination" : [ "obj-32", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 151.333328, 178.0, 149.5, 178.0 ],
+													"midpoints" : [ 151.333328, 178.0, 151.5, 178.0 ],
 													"source" : [ "obj-55", 2 ]
 												}
 
@@ -8125,16 +8161,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-50" : [ "Violin Seat", "VLN", 0 ],
-			"obj-55" : [ "Right", "R", 0 ],
-			"obj-41" : [ "Clarinet", "CL", 0 ],
-			"obj-61" : [ "Viola Seat", "VLA", 0 ],
 			"obj-47" : [ "Viola", "VLA", 0 ],
 			"obj-43" : [ "Cello", "VLC", 0 ],
 			"obj-56" : [ "Left", "L", 0 ],
+			"obj-41" : [ "Clarinet", "CL", 0 ],
+			"obj-39" : [ "Violin", "VLN", 0 ],
+			"obj-61" : [ "Viola Seat", "VLA", 0 ],
 			"obj-54" : [ "Cello Seat", "VLC", 0 ],
 			"obj-53" : [ "Clarinet Seat", "CL", 0 ],
-			"obj-39" : [ "Violin", "VLN", 0 ]
+			"obj-50" : [ "Violin Seat", "VLN", 0 ],
+			"obj-55" : [ "Right", "R", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
