@@ -1,5 +1,5 @@
 # under-the-head
-Repository for Max Murrary's *Állatvanbent, under the head*.
+Repository for Max Murray's *Állatvanbent, under the head*.
 
 ## Requirements
 
